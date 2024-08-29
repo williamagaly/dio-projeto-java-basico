@@ -1,18 +1,32 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Sistema de Cadastro de Conta Bancária
 
-## Folder Structure
+Um programa Java simples para cadastro de contas bancárias.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Coleta dados da conta (número, agência, nome do cliente, saldo)
+- Valida entradas numéricas
+- Exibe resumo da conta criada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Usar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Compile os arquivos:
+   
+   javac Usuario.java ContaTerminal.java
+   
+2. Execute o programa:
+   
+   java Usuario
+   
+3. Siga as instruções na tela
 
-## Dependency Management
+## Exemplo de Saída
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+Olá João da Silva, obrigado por criar uma conta em nosso banco!
+Sua conta é 1021, agencia 067-8 e seu saldo 237.48 já está disponível para saque.
+
+
+Nota: Use ponto (.) como separador decimal para o saldo.
+
